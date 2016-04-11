@@ -28,14 +28,12 @@ h2 {
     line-height: 1.8em;
     font-size: 2.8em;
     letter-spacing: 0;
-    margin: auto;
 }
 
 h3 {
     line-height: 1.6em;
     font-size: 2.4em;
     letter-spacing: 0;
-    margin: auto;
 }
 
 h4 {
@@ -209,6 +207,10 @@ a.biz:hover {
     background-image: url("../images/home1.jpg");
 }
 
+.img-j3 {
+    background-image: url("../images/header.jpg");
+}
+
 .img-biz-1 {
     background-image: url('../images/perfect-score.jpg');
 }
@@ -267,6 +269,12 @@ a.biz:hover {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2596ff', endColorstr='#0367c5', GradientType=1);
 }
 
+.bg_white {
+    min-height: 250px;
+    padding: 84px 15px;
+    background-color: #fff;
+}
+
 .scrim {
     height: 100%;
     background: rgba(0, 1, 17, 0.55);
@@ -294,20 +302,37 @@ hr.subtle {
 hr.subtle-2 {
     border-color: rgba(255, 255, 255, .2);
 }
+hr.subtle-3 {
+    border-color: rgba(255, 255, 255, .4);
+    border-width: 2px;
+    max-width: 40%;
+}
 
 .thick-bar {
     width: 140px;
     height: 4px;
-    display: block;
     margin: 40px auto;
+}
+
+.thick-bar-2 {
+    width: auto;
+    height: 4px;
+    margin: 8px auto;
 }
 
 .white-bg {
     background-color: #fff;
 }
+.blue-bg {
+    background-color: #0084FF;
+}
 
 .text-white {
     color: #fff!important;
+}
+
+.text-blue{
+    color: #0084FF!important;
 }
 
 
@@ -489,6 +514,34 @@ fieldset[disabled] .btn-primary.focus {
     background-color: #fff;
 }
 
+/*default mod buttons*/
+
+.btn-white-2 {
+    color:#0084FF;
+    background-color:#fff;
+    border:none;
+}
+
+.btn-white-2:focus,
+.btn-white-2.focus {
+    color:#0084FF;
+    background-color:#e8e8e8;
+    border:none;
+}
+
+.btn-white-2:hover {
+    color:#0084FF;
+    background-color:#e8e8e8;
+    border:none;
+}
+
+.btn-white-2:active,
+.btn-white-2.active,
+.open > .dropdown-toggle.btn-primary {
+    color:#0084FF;
+    background-color:#e8e8e8;
+    border:none;
+}
 
 /*button navbar */
 
@@ -658,6 +711,18 @@ fieldset[disabled] .btn-primary.focus {
     .j2-padding {
         padding: 54px;
     }
+    .j3 {
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        box-shadow: inset 0px -88px 61px -33px rgba(0, 0, 0, 0.41);
+        background-color: #333;
+    }
+    .j3-padding {
+        padding: 72px 24px 0;
+    }
     .biz {
         margin-top: 12px;
     }
@@ -697,6 +762,15 @@ fieldset[disabled] .btn-primary.focus {
     .j2-padding {
         padding: 84px;
     }
+    .j3 {
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:auto
+    }
+    .j3-padding {
+        padding:144px 84px 12px;
+    }
     .img-signup {
         background-image: url('../images/signup.jpg');
     }
@@ -726,6 +800,16 @@ fieldset[disabled] .btn-primary.focus {
     .j1-padding {
         padding: 344px 84px 12px;
     }
+    .j3 {
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        margin:auto;
+    }
+    .j3-padding {
+        padding: 144px 96px 20px;
+    }
 }
 
 .footer {
@@ -733,4 +817,64 @@ fieldset[disabled] .btn-primary.focus {
     min-height: 100px;
     color: #777;
     padding: 44px 0;
+}
+
+
+.bg_blue-gradient > .container-fluid .box1 {
+    border:1px solid #fff;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 20px;
+    padding:35px 25px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-bottom:15px;
+}
+
+.bg_blue-gradient > .container .box1:hover{
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.bg_blue-gradient > .container > .col-sm-4{
+    padding:15px;
+}
+
+.box1 h2{
+    margin-bottom:-20px;
+}
+
+.box1 h6{
+    margin-bottom:20px;
+}
+
+.box1 ul li{
+    text-align:left;
+    font-size:1em;
+}
+
+.box1 > p > a {
+    margin:30px auto 0;
+}
+
+span.dollar-sign {
+    font-size: 20px;
+    position:relative;
+    bottom:12px;
+    right:4px;
+}
+
+.think-bar-space {
+     padding-left:0;
+    padding-right:8px;
+}
+
+.img-founder {
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:150px;
+    width:150px;
+    background-color: #222;
+    margin:45px auto 25px;
+    border-radius: 50%;
 }
