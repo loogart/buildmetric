@@ -302,6 +302,7 @@ hr.subtle {
 hr.subtle-2 {
     border-color: rgba(255, 255, 255, .2);
 }
+
 hr.subtle-3 {
     border-color: rgba(255, 255, 255, .4);
     border-width: 2px;
@@ -323,6 +324,7 @@ hr.subtle-3 {
 .white-bg {
     background-color: #fff;
 }
+
 .blue-bg {
     background-color: #0084FF;
 }
@@ -331,8 +333,11 @@ hr.subtle-3 {
     color: #fff!important;
 }
 
-.text-blue{
+.text-blue {
     color: #0084FF!important;
+}
+.text-grey {
+    color: #c0c0c0!important;
 }
 
 
@@ -514,34 +519,36 @@ fieldset[disabled] .btn-primary.focus {
     background-color: #fff;
 }
 
+
 /*default mod buttons*/
 
 .btn-white-2 {
-    color:#0084FF;
-    background-color:#fff;
-    border:none;
+    color: #0084FF;
+    background-color: #fff;
+    border: none;
 }
 
 .btn-white-2:focus,
 .btn-white-2.focus {
-    color:#0084FF;
-    background-color:#e8e8e8;
-    border:none;
+    color: #0084FF;
+    background-color: #e8e8e8;
+    border: none;
 }
 
 .btn-white-2:hover {
-    color:#0084FF;
-    background-color:#e8e8e8;
-    border:none;
+    color: #0084FF;
+    background-color: #e8e8e8;
+    border: none;
 }
 
 .btn-white-2:active,
 .btn-white-2.active,
 .open > .dropdown-toggle.btn-primary {
-    color:#0084FF;
-    background-color:#e8e8e8;
-    border:none;
+    color: #0084FF;
+    background-color: #e8e8e8;
+    border: none;
 }
+
 
 /*button navbar */
 
@@ -766,10 +773,10 @@ fieldset[disabled] .btn-primary.focus {
         background-position: fixed;
         background-repeat: no-repeat;
         background-size: cover;
-        height:auto
+        height: auto
     }
     .j3-padding {
-        padding:144px 84px 12px;
+        padding: 144px 84px 12px;
     }
     .img-signup {
         background-image: url('../images/signup.jpg');
@@ -805,7 +812,7 @@ fieldset[disabled] .btn-primary.focus {
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
-        margin:auto;
+        margin: auto;
     }
     .j3-padding {
         padding: 144px 96px 20px;
@@ -820,62 +827,82 @@ fieldset[disabled] .btn-primary.focus {
 }
 
 .box1 {
-       -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out; 
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.box1:hover{
-        -webkit-transform: scale(1.01);
+
+.box1:hover {
+    -webkit-transform: scale(1.01);
     transform: scale(1.01);
 }
 
 .bg_blue-gradient > .container-fluid .box1 {
-    border:1px solid #fff;
-    background-color: rgba(255,255,255,.1);
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, .1);
     border-radius: 20px;
-    padding:35px 25px;
-    margin-bottom:15px;
+    padding: 35px 25px;
+    margin-bottom: 15px;
 }
 
-.bg_blue-gradient > .container > .col-sm-4{
-    padding:15px;
+.bg_blue-gradient > .container > .col-sm-4 {
+    padding: 15px;
 }
 
-.box1 h2{
-    margin-bottom:-20px;
+.box1 h2 {
+    margin-bottom: -20px;
 }
 
-.box1 h6{
-    margin-bottom:20px;
+.box1 h6 {
+    margin-bottom: 20px;
 }
 
-.box1 ul li{
-    text-align:left;
-    font-size:1em;
+.box1 ul li {
+    text-align: left;
+    font-size: 1em;
 }
 
 .box1 > p > a {
-    margin:30px auto 0;
+    margin: 30px auto 0;
 }
 
 span.dollar-sign {
     font-size: 20px;
-    position:relative;
-    bottom:12px;
-    right:4px;
+    position: relative;
+    bottom: 12px;
+    right: 4px;
 }
 
 .think-bar-space {
-     padding-left:0;
-    padding-right:8px;
+    padding-left: 0;
+    padding-right: 8px;
 }
 
 .img-founder {
-    background-position:center;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    height:150px;
-    width:150px;
+    height: 120px;
+    width: 120px;
     background-color: #222;
-    margin:45px auto 25px;
+    margin: 45px auto 25px;
     border-radius: 50%;
+}
+
+
+/* modal */
+
+.modal-content {
+    border-radius: 16px;
+}
+
+.modal-body {
+    padding: 25px 40px;
+}
+
+.modal-img {
+    height: 240px;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0 0;
 }
